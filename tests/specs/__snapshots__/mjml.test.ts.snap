@@ -2,7 +2,7 @@
 
 exports[`mjml tests should create basic structure and snapshot result 1`] = `
 "<!doctype html>
-<html xmlns=\\"http://www.w3.org/1999/xhtml\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" xmlns:o=\\"urn:schemas-microsoft-com:office:office\\">
+<html lang=\\"und\\" dir=\\"auto\\" xmlns=\\"http://www.w3.org/1999/xhtml\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" xmlns:o=\\"urn:schemas-microsoft-com:office:office\\">
   <head>
     <title></title>
     <!--[if !mso]><!-->
@@ -57,10 +57,10 @@ exports[`mjml tests should create basic structure and snapshot result 1`] = `
 .moz-text-html .mj-column-per-33-333333333333336 { width:33.333333333333336% !important; max-width: 33.333333333333336%; }
     </style>
     
+    
   
+    
     <style type=\\"text/css\\">
-    
-    
 
     @media only screen and (max-width:479px) {
       table.mj-full-width-mobile { width: 100% !important; }
@@ -68,8 +68,9 @@ exports[`mjml tests should create basic structure and snapshot result 1`] = `
     }
   
     </style>
+     
     <style type=\\"text/css\\">
-    .slogan {
+.slogan {
             background: #000;
           }
     </style>
@@ -79,7 +80,7 @@ exports[`mjml tests should create basic structure and snapshot result 1`] = `
     
     
       <div
-         style=\\"\\"
+         aria-roledescription=\\"email\\" style=\\"\\" role=\\"article\\" lang=\\"und\\" dir=\\"auto\\"
       >
         <!-- Company Header -->
       
@@ -186,7 +187,7 @@ exports[`mjml tests should create basic structure and snapshot result 1`] = `
             
               <tr>
                 <td
-                   align=\\"center\\" vertical-align=\\"middle\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
                 >
                   
       <table
@@ -297,7 +298,7 @@ exports[`mjml tests should create basic structure and snapshot result 1`] = `
             
               <tr>
                 <td
-                   align=\\"center\\" vertical-align=\\"middle\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
                 >
                   
       <table
@@ -388,7 +389,7 @@ exports[`mjml tests should create basic structure and snapshot result 1`] = `
             <td  style=\\"width:200px;\\">
               
       <img
-         src=\\"https://designspell.files.wordpress.com/2012/01/sciolino-paris-bw.jpg\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;\\" width=\\"200\\" height=\\"auto\\"
+         alt=\\"\\" src=\\"https://designspell.files.wordpress.com/2012/01/sciolino-paris-bw.jpg\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;\\" width=\\"200\\" height=\\"auto\\"
       />
     
             </td>
@@ -545,7 +546,7 @@ exports[`mjml tests should create basic structure and snapshot result 1`] = `
             <td  style=\\"width:100px;\\">
               
       <img
-         src=\\"http://191n.mj.am/img/191n/3s/x0l.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;\\" width=\\"100\\" height=\\"auto\\"
+         alt=\\"\\" src=\\"http://191n.mj.am/img/191n/3s/x0l.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;\\" width=\\"100\\" height=\\"auto\\"
       />
     
             </td>
@@ -585,7 +586,7 @@ exports[`mjml tests should create basic structure and snapshot result 1`] = `
             <td  style=\\"width:100px;\\">
               
       <img
-         src=\\"http://191n.mj.am/img/191n/3s/x01.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;\\" width=\\"100\\" height=\\"auto\\"
+         alt=\\"\\" src=\\"http://191n.mj.am/img/191n/3s/x01.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;\\" width=\\"100\\" height=\\"auto\\"
       />
     
             </td>
@@ -625,7 +626,7 @@ exports[`mjml tests should create basic structure and snapshot result 1`] = `
             <td  style=\\"width:100px;\\">
               
       <img
-         src=\\"http://191n.mj.am/img/191n/3s/x0s.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;\\" width=\\"100\\" height=\\"auto\\"
+         alt=\\"\\" src=\\"http://191n.mj.am/img/191n/3s/x0s.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;\\" width=\\"100\\" height=\\"auto\\"
       />
     
             </td>
@@ -680,7 +681,7 @@ exports[`mjml tests should create basic structure and snapshot result 1`] = `
           
               <tr>
                 <td
-                   align=\\"center\\" vertical-align=\\"middle\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
                 >
                   
       <table
@@ -719,6 +720,7 @@ exports[`mjml tests should create basic structure and snapshot result 1`] = `
       <tr
         
       >
+        
         <td  style=\\"padding:4px;vertical-align:middle;\\">
           <table
              border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:#3b5998;border-radius:3px;width:30px;\\"
@@ -728,7 +730,7 @@ exports[`mjml tests should create basic structure and snapshot result 1`] = `
                 <td  style=\\"font-size:0;height:30px;vertical-align:middle;width:30px;\\">
                   <a  href=\\"https://www.facebook.com/sharer/sharer.php?u=https://mjml.io/\\" target=\\"_blank\\">
                     <img
-                       height=\\"30\\" src=\\"https://www.mailjet.com/images/theme/v1/icons/ico-social/facebook.png\\" style=\\"border-radius:3px;display:block;\\" width=\\"30\\"
+                       alt=\\"\\" src=\\"https://www.mailjet.com/images/theme/v1/icons/ico-social/facebook.png\\" style=\\"border-radius:3px;display:block;\\" width=\\"30\\"
                     />
                   </a>
                 </td>
@@ -736,14 +738,16 @@ exports[`mjml tests should create basic structure and snapshot result 1`] = `
             </tbody>
           </table>
         </td>
+       
         
-          <td  style=\\"vertical-align:middle;padding:4px 4px 4px 0;\\">
+          <td  style=\\"vertical-align:middle;padding:4px 4px 4px 0;text-align:left;\\">
             <a
                  href=\\"https://www.facebook.com/sharer/sharer.php?u=https://mjml.io/\\" style=\\"color:#333333;font-size:15px;font-family:Ubuntu, Helvetica, Arial, sans-serif;line-height:22px;text-decoration:none;\\" target=\\"_blank\\">
               Facebook
             </a>
           </td>
           
+      
       </tr>
     
                 </tbody>
@@ -757,6 +761,7 @@ exports[`mjml tests should create basic structure and snapshot result 1`] = `
       <tr
         
       >
+        
         <td  style=\\"padding:4px;vertical-align:middle;\\">
           <table
              border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:#dc4e41;border-radius:3px;width:30px;\\"
@@ -766,7 +771,7 @@ exports[`mjml tests should create basic structure and snapshot result 1`] = `
                 <td  style=\\"font-size:0;height:30px;vertical-align:middle;width:30px;\\">
                   <a  href=\\"https://plus.google.com/share?url=https://mjml.io/\\" target=\\"_blank\\">
                     <img
-                       height=\\"30\\" src=\\"https://www.mailjet.com/images/theme/v1/icons/ico-social/google-plus.png\\" style=\\"border-radius:3px;display:block;\\" width=\\"30\\"
+                       alt=\\"\\" src=\\"https://www.mailjet.com/images/theme/v1/icons/ico-social/google-plus.png\\" style=\\"border-radius:3px;display:block;\\" width=\\"30\\"
                     />
                   </a>
                 </td>
@@ -774,14 +779,16 @@ exports[`mjml tests should create basic structure and snapshot result 1`] = `
             </tbody>
           </table>
         </td>
+       
         
-          <td  style=\\"vertical-align:middle;padding:4px 4px 4px 0;\\">
+          <td  style=\\"vertical-align:middle;padding:4px 4px 4px 0;text-align:left;\\">
             <a
                  href=\\"https://plus.google.com/share?url=https://mjml.io/\\" style=\\"color:#333333;font-size:15px;font-family:Ubuntu, Helvetica, Arial, sans-serif;line-height:22px;text-decoration:none;\\" target=\\"_blank\\">
               Google
             </a>
           </td>
           
+      
       </tr>
     
                 </tbody>
@@ -795,6 +802,7 @@ exports[`mjml tests should create basic structure and snapshot result 1`] = `
       <tr
         
       >
+        
         <td  style=\\"padding:4px;vertical-align:middle;\\">
           <table
              border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:#55acee;border-radius:3px;width:30px;\\"
@@ -804,7 +812,7 @@ exports[`mjml tests should create basic structure and snapshot result 1`] = `
                 <td  style=\\"font-size:0;height:30px;vertical-align:middle;width:30px;\\">
                   <a  href=\\"https://twitter.com/intent/tweet?url=https://mjml.io/\\" target=\\"_blank\\">
                     <img
-                       height=\\"30\\" src=\\"https://www.mailjet.com/images/theme/v1/icons/ico-social/twitter.png\\" style=\\"border-radius:3px;display:block;\\" width=\\"30\\"
+                       alt=\\"\\" src=\\"https://www.mailjet.com/images/theme/v1/icons/ico-social/twitter.png\\" style=\\"border-radius:3px;display:block;\\" width=\\"30\\"
                     />
                   </a>
                 </td>
@@ -812,14 +820,16 @@ exports[`mjml tests should create basic structure and snapshot result 1`] = `
             </tbody>
           </table>
         </td>
+       
         
-          <td  style=\\"vertical-align:middle;padding:4px 4px 4px 0;\\">
+          <td  style=\\"vertical-align:middle;padding:4px 4px 4px 0;text-align:left;\\">
             <a
                  href=\\"https://twitter.com/intent/tweet?url=https://mjml.io/\\" style=\\"color:#333333;font-size:15px;font-family:Ubuntu, Helvetica, Arial, sans-serif;line-height:22px;text-decoration:none;\\" target=\\"_blank\\">
               Twitter
             </a>
           </td>
           
+      
       </tr>
     
                 </tbody>
